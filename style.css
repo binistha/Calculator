@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.container{
+    padding: 1rem;
+   width: 353px;
+   height: 552px;
+   border-radius: 40px;
+   background-color: #F7C2C2;
+}
+
+ input{
+    width: 300px;
+    height: 100px;
+    margin: 8px 17px 20px 15px;
+    border: none;
+    border-radius: 40px 40px 0px 0px;
+    background: #FFF7F7; 
+    color: black;
+    font-size: 35px;
+    padding-left: 1rem;
+  }
+  .cal-key{
+  margin-left: 1rem;
+  }
+.cal-key button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background:  #FAF9F9;
+    border: none;
+    margin: 4px;
+    margin-bottom: 0.8rem;
+    font-size: 20px;
+    font-style: bold;
+    cursor: pointer;
+}
+.cal-key .number-zero{
+    width: 8.49rem;
+    height: 60px;
+}
+.cal-key button:hover{
+    background-color:  #eeb0b0;
+    color: #7b5f5f;
+}
+.cal-key button:active{
+  background-color:  #ea9797;
+}

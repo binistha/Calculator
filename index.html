@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculater</title>
+</head>
+<body>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+ 
+<div class="container"> 
+     <input name="user-input"  id="display"  readonly><br>
+
+        <div class="cal-key">
+            <button onClick="clearDisplay()" class="operations-key">AC</button>
+            <button onClick="deleteNum()" class="operations-key">DE</button>
+            <button onClick="appendToDisplay('%')" class="operations-key">%</button>
+            <button onClick="appendToDisplay('/')" class="operations-key">/</button><br>
+            <button onClick="appendToDisplay('9')" class="number">9</button>
+            <button onClick="appendToDisplay('8')" class="number">8</button>
+            <button onClick="appendToDisplay('7')" class="number">7</button>
+            <button onClick="appendToDisplay('*')" class="operations-key">*</button><br>
+            <button onClick="appendToDisplay('6')" class="number">6</button> 
+            <button onClick="appendToDisplay('5')" class="number">5</button>
+            <button onClick="appendToDisplay('4')" class="number">4</button>
+            <button onClick="appendToDisplay('-')" class="operations-key">-</button><br>
+            <button onClick="appendToDisplay('3')" class="number">3</button>
+            <button onClick="appendToDisplay('2')" class="number">2</button>
+            <button onClick="appendToDisplay('1')" class="number">1</button>
+            <button onClick="appendToDisplay('+')" class="operations-key">+</button><br>
+            <button onClick="appendToDisplay('0')" class="number-zero">0</button>
+            <button onClick="appendToDisplay('.')" class="operations-key">.</button>
+            <button onClick= "calculate()" class="operations-key">=</button>
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
